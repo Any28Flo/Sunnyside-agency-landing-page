@@ -1,0 +1,16 @@
+:root{
+    --fontBase: 'Barlow', sans-serif;
+    --fontSecondary :'Fraunces', serif;
+    --headLine1 : 900 4rem/4.9rem var(--fontSecondary);
+    --body1: 600 1.8rem/3rem var(--fontBase);
+}
+
+*,
+*::after,
+*::before{
+    margin : 0;
+}
+
+html{
+    font-size: 10px;
+}

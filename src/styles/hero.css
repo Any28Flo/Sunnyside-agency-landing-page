@@ -1,0 +1,6 @@
+#hero{
+    background-image: url(./../images/mobile/image-header.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

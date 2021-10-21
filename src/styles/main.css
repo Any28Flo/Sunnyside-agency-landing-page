@@ -1,18 +1,27 @@
-@import url(./hero.css);
+
+@import url(./header.css);
 
 :root{
     --fontBase: 'Barlow', sans-serif;
     --fontSecondary :'Fraunces', serif;
-    --headLine1 : 900 4rem/4.9rem var(--fontSecondary);
+    --headLine1 : 900 24px/5rem var(--fontSecondary);
     --body1: 600 1.8rem/3rem var(--fontBase);
 }
 
+/*@media screen and (min-width: 600px){*/
+/*    :root{*/
+
+/*        --headLine1 : 900 7.5rem/6rem var(--fontSecondary);*/
+/*        --body1: 600 1.8rem/3rem var(--fontBase);*/
+/*    }*/
+/*}*/
 *,
 *::after,
 *::before{
     margin : 0;
-}
+    box-sizing: inherit;
 
+}
 html{
     font-size: 10px;
 }

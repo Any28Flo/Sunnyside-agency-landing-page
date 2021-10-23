@@ -54,6 +54,8 @@ header nav{
     header{
         background-image: url(./../images/desktop/image-header.jpg);
         padding-block-start: 3.4em;
+        padding-inline: 4rem ;
+
     }
     .header-menu{
         display: none;
@@ -69,13 +71,22 @@ header nav{
         flex-direction: row;
         gap: 4.7rem;
         list-style: none;
+        align-items: center;
     }
     .menu ul li a{
         text-decoration: none;
         font: var(--body1);
         color: white;
-
     }
+    .menu ul li:last-child a{
+        color: var(--gray);
+        text-transform: uppercase;
+        font-family: var(--fontSecondary);
+    }
+    .menu ul li:last-child:hover a{
+        color: white;
+    }
+
     .logo-sunnyside{
         width: 17rem;
         height: 3.3rem;
@@ -88,5 +99,17 @@ header nav{
         display: flex;
         justify-content: space-between;
     }
+    .btn-contact{
+        background-color: white;
+        border:none;
+        color: black;
+        border-radius: 2.8rem;
+        padding-block: 1.6rem;
+        padding-inline: 3.2rem;
+    }
+    .btn-contact:hover{
+        background-color: var(--desatured-cyan);
+    }
+
 }
 

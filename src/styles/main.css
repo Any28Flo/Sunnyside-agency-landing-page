@@ -1,18 +1,23 @@
 
 @import url(./header.css);
-
+@import url(./option.css);
 :root{
     --fontBase: 'Barlow', sans-serif;
     --fontSecondary :'Fraunces', serif;
     --headLine1 : 900 24px/5rem var(--fontSecondary);
+    --headLine2: 900 3.2rem/4rem var(--fontSecondary);
     --body1: 600 1.8rem/3rem var(--fontBase);
     --gray: #24303E;
+    --gray-dark: #24303E;
     --desatured-cyan :  #77CDF5;
+    --light-gray:#808397;
+
 }
 
 @media screen and (min-width: 900px){
     :root{
         --headLine1 : 900 5rem/6rem var(--fontSecondary);
+        --headLine2: 900 4rem/5rem var(--fontSecondary);
         --body1: 600 1.8rem/3rem var(--fontBase);
     }
 }
@@ -26,4 +31,8 @@
 }
 html{
     font-size: 10px;
+}
+body{
+    font: var(--body1);
+    color: var(--light-gray);
 }

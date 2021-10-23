@@ -78,7 +78,7 @@ header nav{
         font: var(--body1);
         color: white;
     }
-    .menu ul li:last-child a{
+    .menu ul li a.btn-contact{
         color: var(--gray);
         text-transform: uppercase;
         font-family: var(--fontSecondary);

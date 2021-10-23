@@ -8,13 +8,13 @@
     --body1: 600 1.8rem/3rem var(--fontBase);
 }
 
-/*@media screen and (min-width: 600px){*/
-/*    :root{*/
+@media screen and (min-width: 900px){
+    :root{
+        --headLine1 : 900 5rem/6rem var(--fontSecondary);
+        --body1: 600 1.8rem/3rem var(--fontBase);
+    }
+}
 
-/*        --headLine1 : 900 7.5rem/6rem var(--fontSecondary);*/
-/*        --body1: 600 1.8rem/3rem var(--fontBase);*/
-/*    }*/
-/*}*/
 *,
 *::after,
 *::before{

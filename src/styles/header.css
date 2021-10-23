@@ -1,14 +1,10 @@
 header{
     display: grid;
-    /*padding-block-start: 14.4rem;*/
     padding-inline: 2.2rem ;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
     background-image: url(./../images/mobile/image-header.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .sunnyside-header{
     display: grid;
@@ -22,8 +18,6 @@ header{
 }
 /*sunnyside-hero*/
 .sunnyside-hero{
-    border: 1px solid red;
-    height: auto;
     text-align: center;
     font: var(--headLine1);
 }
@@ -41,32 +35,58 @@ header{
 header nav{
     display: none;
 }
-
-/*Responsive design -> Desktop*/
-@media screen and (min-width: 600px){
+@media (min-width: 900px) and (max-width: 1199px){
     header{
         background-image: url(./../images/desktop/image-header.jpg);
-        height: 80rem;
-        padding-block-start: 3.4rem;
+        padding-block-start: 3.4em;
+    }
+    .sunnyside-hero{
+        height: auto;
+        text-align: center;
+        font-weight: 900;
+        font-size: 5.6rem;
+        line-height: 13rem;
+        font-family: var(--fontSecondary);
+    }
+}
+/*Responsive design -> Desktop*/
+@media screen and (min-width: 1200px){
+    header{
+        background-image: url(./../images/desktop/image-header.jpg);
+        padding-block-start: 3.4em;
+    }
+    .header-menu{
+        display: none;
+    }
+
+    header nav{
+        display: block;
+
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        gap: 4.7rem;
+        list-style: none;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        font: var(--body1);
+        color: white;
+
+    }
+    .logo-sunnyside{
+        width: 17rem;
+        height: 3.3rem;
     }
     .sunnyside-hero h1{
 
         padding-block-start: 19.5rem;
     }
-    .header-menu{
-        display: none;
-    }
-    header nav{
-        /*display: block;*/
-        display: none;
+    .sunnyside-header{
+        display: flex;
+        justify-content: space-between;
     }
 }
 
-@media (orientation: landscape){
-    header{
-        background-position: center;
-        padding-block-start: 5%;
-        padding-inline: 2.4rem ;
-
-    }
-}

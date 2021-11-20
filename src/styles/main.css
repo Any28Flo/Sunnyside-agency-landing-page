@@ -1,16 +1,21 @@
 
 @import url(./header.css);
 @import url(./option.css);
+@import url(./services.css);
+
 :root{
     --fontBase: 'Barlow', sans-serif;
     --fontSecondary :'Fraunces', serif;
     --headLine1 : 900 24px/5rem var(--fontSecondary);
     --headLine2: 900 3.2rem/4rem var(--fontSecondary);
+    --headLine3: 900 2.8rem/3.4rem var(--fontSecondary);
     --body1: 600 1.8rem/3rem var(--fontBase);
     --gray: #24303E;
     --gray-dark: #24303E;
     --desatured-cyan :  #77CDF5;
     --light-gray:#808397;
+    --green:#24554A;
+    --dark-blue:#19536C;
 
 }
 
@@ -18,6 +23,10 @@
     :root{
         --headLine1 : 900 5rem/6rem var(--fontSecondary);
         --headLine2: 900 4rem/5rem var(--fontSecondary);
+        /* TODO 
+        1. set font propertie
+        */
+        /* --headLine3: 900 2rem/3rem var(--fontSecondary); */
         --body1: 600 1.8rem/3rem var(--fontBase);
     }
 }
@@ -35,4 +44,7 @@ html{
 body{
     font: var(--body1);
     color: var(--light-gray);
+}
+h3{
+    font: var(--headLine3);
 }

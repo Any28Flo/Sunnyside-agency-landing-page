@@ -7,7 +7,8 @@
 [class*="service-"]{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: initial;
 }
 .service-1{
     background-image: url(./../images/mobile/image-graphic-design.jpg);
@@ -19,7 +20,7 @@
     
 }
 [class*="service-"] h3{
-    margin-block-start: 46rem;
+    margin-block-start: 39rem;
 
 } 
 
@@ -30,8 +31,12 @@
     padding-inline-end: 2.4rem;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 900px){
     #services{
         grid-template-columns: 1fr 1fr;
     }
+    [class*="service-"] h3{
+        margin-block-start: 46rem;
+    
+    } 
 }

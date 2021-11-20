@@ -23,10 +23,6 @@
     :root{
         --headLine1 : 900 5rem/6rem var(--fontSecondary);
         --headLine2: 900 4rem/5rem var(--fontSecondary);
-        /* TODO 
-        1. set font propertie
-        */
-        /* --headLine3: 900 2rem/3rem var(--fontSecondary); */
         --body1: 600 1.8rem/3rem var(--fontBase);
     }
 }

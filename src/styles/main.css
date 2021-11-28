@@ -2,7 +2,7 @@
 @import url(./header.css);
 @import url(./option.css);
 @import url(./services.css);
-
+@import url(./testimonials.css);
 :root{
     --fontBase: 'Barlow', sans-serif;
     --fontSecondary :'Fraunces', serif;
@@ -41,6 +41,7 @@ body{
     font: var(--body1);
     color: var(--light-gray);
 }
+
 h3{
     font: var(--headLine3);
 }

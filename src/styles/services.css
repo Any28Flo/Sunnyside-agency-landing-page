@@ -32,6 +32,8 @@
 }
 
 @media screen and (min-width: 900px){
+    /* TODO */
+    /* 1.Change background images */
     #services{
         grid-template-columns: 1fr 1fr;
     }

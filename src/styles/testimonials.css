@@ -26,6 +26,8 @@
 }
 .testimonial img{
     border-radius: 50%;
+    width: 7.2rem;
+    height: 7.2rem;
 }
 @media screen and (min-width:900px){
     .container-testimonials{

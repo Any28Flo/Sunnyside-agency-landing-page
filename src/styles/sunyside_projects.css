@@ -1,0 +1,15 @@
+#sunyside_projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#sunyside_projects img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width:900px) {
+    #sunyside_projects{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  
+}

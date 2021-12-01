@@ -3,6 +3,8 @@
 @import url(./option.css);
 @import url(./services.css);
 @import url(./testimonials.css);
+@import url(./sunyside_projects.css);
+
 :root{
     --fontBase: 'Barlow', sans-serif;
     --fontSecondary :'Fraunces', serif;
